@@ -1,0 +1,27 @@
+# ============================================================
+#  Press CSV Merger - SETTINGS  (THE ONLY FILE YOU EDIT)
+# ============================================================
+#
+#  YOU ONLY NEED TO EDIT ONE LINE:  Src=
+#
+#  Src = the folder where the press exports its CSV files.
+#        Example:  Src=D:\PressData\Export
+#        Use an English path if possible.
+#
+#  Save with Notepad and you are done.
+#
+# ------------------------------------------------------------
+#  Optional (usually leave empty):
+#
+#  Out      = where merged files go.
+#             Leave empty -> creates "_Merged" inside the source folder.
+#
+#  SafeDays = how old a file must be before it is handled.
+#             1 = only yesterday and older (RECOMMENDED, default)
+#             0 = include today too (only if the press export is OFF)
+#
+# ============================================================
+
+Src=
+Out=
+SafeDays=1

@@ -1,0 +1,14 @@
+# 运行时产生的临时文件与日志，不入库
+*.tmp
+Logs/
+EnvCheck_Result.txt
+_StartupError.txt
+
+# 合并结果（数据目录，按需自行备份）
+_Merged/
+
+# Windows / 编辑器杂项
+Thumbs.db
+desktop.ini
+*.swp
+*~
